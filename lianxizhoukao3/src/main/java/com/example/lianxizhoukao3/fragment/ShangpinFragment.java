@@ -102,7 +102,6 @@ public class ShangpinFragment extends Fragment {
                 String title = data.getTitle();
                 int price = data.getPrice();
                 String[] split = images.split("\\|");
-
                 xiangqingSimple.setBannerStyle(BannerConfig.CIRCLE_INDICATOR_TITLE_INSIDE);
                 xiangqingSimple.setImageLoader(new GlidApp());
                 List<String> Imagelist = new ArrayList();
